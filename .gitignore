@@ -1,7 +1,22 @@
-# Secrets and credentials
+# Sensitive tool collections
+HACKING TOOLS/CYBER RATS/
+HACKING TOOLS/CYBER TOOLS/FOR FACEBOOK/
+
+# Personal/credential files
+**/Pass*.txt
+**/Password*.txt
+**/*password*.txt
+
+# Large/archive files
+*.pdf
+*.epub
+*.tar
+*.tar.bz2
+*.tar.xz
+
+# Secrets
 .env
 .env.*
-!.env.example
 *.pem
 *.key
 *.ppk
@@ -11,29 +26,20 @@
 credentials.json
 secrets.json
 
-# Large installers / binaries
-*.exe
-*.msi
-*.rpm
-*.dmg
-*.iso
-*.zip
-*.rar
-*.7z
-*.tar
-*.gz
+# Git
+.git/
 
-# Large media
-*.mp4
-*.mov
-*.avi
-*.mkv
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
 
-# Large documents
-*.pdf
-*.epub
+# Node
+node_modules/
 
 # Virtual machines
+*.iso
 *.vmdk
 *.vdi
 *.vhd
@@ -41,22 +47,25 @@ secrets.json
 *.ova
 *.ovf
 
-# Python
-__pycache__/
-*.py[cod]
-venv/
-.venv/
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.xz
 
-# Node.js
-node_modules/
+# Large installers
+*.exe
+*.msi
+*.dmg
+*.rpm
 
-# Logs
-*.log
+# Large videos
+*.mp4
+*.mov
+*.avi
+*.mkv
 
-# OS files
+# OS
 Thumbs.db
 .DS_Store
-
-# Sensitive / malicious-tool collections
-HACKING TOOLS/CYBER RATS/
-HACKING TOOLS/CYBER TOOLS/FOR FACEBOOK/
