@@ -1,0 +1,62 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.ovpn
+credentials.json
+secrets.json
+
+# Large installers / binaries
+*.exe
+*.msi
+*.rpm
+*.dmg
+*.iso
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Large media
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Large documents
+*.pdf
+*.epub
+
+# Virtual machines
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node.js
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Sensitive / malicious-tool collections
+HACKING TOOLS/CYBER RATS/
+HACKING TOOLS/CYBER TOOLS/FOR FACEBOOK/
